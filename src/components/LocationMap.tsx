@@ -158,7 +158,7 @@ const LocationMap = ({ searchLocation, onLocationSelect }: LocationMapProps) => 
       }
     );
   };
-
+  //  check your location
   return (
     <div className="space-y-4">
       <div className="bg-muted rounded-lg h-64 relative overflow-hidden">
@@ -178,3 +178,4 @@ const LocationMap = ({ searchLocation, onLocationSelect }: LocationMapProps) => 
 };
 
 export default LocationMap;
+// export 
